@@ -1,0 +1,17 @@
+.part_five{
+    text-align: center;
+}
+.part_five h1{
+    font-size: 45px;
+    color: black;
+}
+.part_five p{
+    margin-top: 25px;
+}
+.photos{
+    margin-top: 10px;
+}
+.photos img{
+    margin: 10px;
+
+}

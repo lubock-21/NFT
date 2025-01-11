@@ -1,0 +1,39 @@
+
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(19, 19, 28);
+}
+.navbar img{
+    margin-left: 10%;
+}
+.navbar h2{
+    color: white;
+    margin-left: 10px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 190px;
+    color: rgb(242, 242, 242);
+    font-size: 17px;
+}
+.navbar li{
+    margin-left: 20px;
+}
+.navbar button{
+    background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+    box-shadow: 15px 15px 35px 0px rgba(226, 142, 15, 0.18);
+    margin-left: 360px;
+    padding: 7px 18px ;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
