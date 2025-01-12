@@ -16,7 +16,7 @@ function PartThree() {
   return (
     <div className="part_three">
         <h1>Exclusive NFT.Ring drops</h1>
-        <p>This NFT website is a website that features buying and selling, news and blogs. Designed with a minimalist and informative concept</p>
+        <p>This NFT website is a website that features buying and selling, news and <br /> blogs. Designed with a minimalist and informative concept</p>
         <div className="three_cards">
             <div className="three_card">
                 <img src={photo1} alt="" />

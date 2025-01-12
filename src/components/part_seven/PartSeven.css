@@ -1,0 +1,48 @@
+.part_seven {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../asset/shubham-dhage-_afH9fjiom0-unsplash\ 26.png);
+}
+  
+.part_seven h1 {
+  font-size: 36px;
+  color: black;
+  padding-top: 168px;
+  margin-left: 5%;
+}
+
+.part_seven p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.811);
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.email-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  margin-left: 4.5%;
+  border-radius: 5px;
+  margin-top: 40px;
+  border: none;
+  outline: none;
+}
+
+.registor-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.registor-btn:hover {
+  background-color: #0056b3;
+}

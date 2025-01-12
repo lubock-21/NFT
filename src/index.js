@@ -9,6 +9,9 @@ import PartThree from './components/part_three/PartThree';
 import PartFive from './components/part_five/PartFive';
 import PartSix from './components/part_six/PartSix';
 import Footer from './components/footer/Footer';
+import PartTwo from './components/part_two/PartTwo';
+import PartFour from './components/part_four/PartFour';
+import PartSeven from './components/part_seven/PartSeven';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,9 +19,12 @@ root.render(
     <App />
     <Navbar/>
     <PartOne/>
+    <PartTwo/>
     <PartThree/>
+    <PartFour/>
     <PartFive/>
     <PartSix/>
+    <PartSeven/>
     <Footer/>
   </React.StrictMode>
 );

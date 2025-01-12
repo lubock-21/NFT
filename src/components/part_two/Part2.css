@@ -1,0 +1,24 @@
+.Katta{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 5%;
+    text-align: center;
+
+}
+.Part_two{
+    text-align: center;
+}
+.Part_two h1{
+    color: black;
+    margin-top: 35px;
+    font-size: 45px;
+}
+.Part_two p{
+  margin-top: 20px;
+}
+.card{
+    margin:20px;
+}
