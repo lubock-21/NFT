@@ -41,3 +41,23 @@
 .footer-column li:hover {
     text-decoration: underline;
 }
+@media(max-width:671px){
+    .footer-column ul{
+        display: none;
+    }
+    .footer-column p{
+        display: none;
+    }
+    .footer{
+        display: block;
+    }
+    .footer_br br{
+        display: none;
+    }
+    .footer-column{
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+}

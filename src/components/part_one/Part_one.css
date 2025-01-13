@@ -63,3 +63,16 @@
     font-weight: 600;
     position: absolute;
 }
+@media(max-width:1286px){
+    .price{
+        display: none;
+    }
+}
+@media(max-width:604px){
+    .part_one h1{
+        font-size: 35px;   
+    }
+    .smth{
+        padding-left: 20px;
+    }
+}

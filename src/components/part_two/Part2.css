@@ -22,3 +22,19 @@
 .card{
     margin:20px;
 }
+@media(max-width:1287px){
+    .Katta{
+        margin-left: 20px;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}
+@media(max-width:530px){
+    .Part_two br{
+        display: none;
+    }
+    .Part_two h1{
+        font-size: 35px;
+    }
+
+}

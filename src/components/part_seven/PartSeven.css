@@ -42,7 +42,14 @@
   cursor: pointer;
   margin-left: 10px;
 }
-
 .registor-btn:hover {
   background-color: #0056b3;
+}
+.btn_down{
+  display: block !important;
+}
+@media(max-width:473px){
+  .part_seven button{
+    margin: 20px;
+  }
 }

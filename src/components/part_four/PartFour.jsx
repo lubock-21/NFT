@@ -14,7 +14,7 @@ function PartFour() {
       </p>
       <button className="see-all-button">See All</button>
       <div className="container">
-        <div className="card_4">
+        <div className="card_4 eliminate">
           <img src={rasm} alt="Group 4" />
         </div>
         <div className="card_4">
@@ -23,7 +23,7 @@ function PartFour() {
         <div className="card_4">
           <img src={imgg} alt="Group 6" />
         </div>
-        <div className="card_4">
+        <div className="card_4 eliminate">
           <img src={foto} alt="Group 7" />
         </div>
       </div>

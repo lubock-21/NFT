@@ -3,7 +3,7 @@ import second from '../asset/Ellipse 1 (1).png'
 
 function Footer() {
   return (
-    <div>
+    <div className='footer_br'>
       <footer className="footer">
     <div className="footer-column">
        <div className="logo_name">

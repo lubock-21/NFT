@@ -11,7 +11,6 @@
   font-size: 1rem;
   line-height: 1.5;
 }
-  
 .see-all-button {
   background-color: #007bff;
   color: white;
@@ -22,16 +21,45 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-bottom: 30px;
-}  
-  
+}   
 .see-all-button:hover {
   background-color: #0056b3;
 }
-
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px; 
   margin-top: 30px;  
+}
+@media(max-width:1287px){
+  .eliminate{
+    display: none;
+  }
+  .card_4{
+    width: 45%;
+    margin: 20px;
+  }
+  .card_4 img{
+    width: 100%;
+  }
+}
+@media(max-width:686px){
+  .part_four h1{
+    font-size: 35px;
+  }
+  .part_four br{
+    display: none;
+  }
+  .container{
+    margin-top: 0px;
+  }
+}
+@media(max-width:556px){
+  .container{
+    flex-wrap: wrap;
+  }
+  .card_4{
+    width: 90%;
+  }
 }

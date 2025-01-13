@@ -14,5 +14,16 @@
 }
 .photos img{
     margin: 10px;
-
+}
+@media(max-width:550px){
+    .part_five h1{
+        font-size: 35px;
+    }
+    .part_five br{
+        display: none;
+    }
+    .part_five p{
+        font-size: 16px;
+        margin-left: 10px;
+    }
 }
